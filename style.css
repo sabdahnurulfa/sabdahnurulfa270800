@@ -1,0 +1,51 @@
+.form {
+    width:300px;
+    margin:30 auto;
+    background: cornflowerblue;
+    border: 1px solid#222;
+    padding: 15px;
+    border-radius: 5px;
+  
+}
+
+.form h1 {
+    text-align: center;
+    color: #eee;
+}
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image:url("bg1.jpg")
+}
+#input {
+    width: 95%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+
+#input [type="submit"] {
+    background-color: mediumblue;
+    color: #eee;
+    width:40%;
+}
+
+.select {
+    width: 60%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+.hasil {
+    background: #eee;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+}
